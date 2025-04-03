@@ -19,6 +19,11 @@ public class MyFarm {
             row[z] = new Plot();
         }
 
+        plotList = new ArrayList<>();
+        for (int x = 0; x < 10; x++){
+            plotList.add(new Plot()); //arrayLists use add instead of row[]
+        }
+
         /***
          * for each method you code, call it here
          * be sure to print each result in a sentence,
